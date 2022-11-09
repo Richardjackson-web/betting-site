@@ -237,18 +237,16 @@
     background-size: 100% 100%;
 }
 .footer{
-    display: flex;
     max-width: 100%;
     background-color: rgb(2, 2, 23);
     color: #fff;
     padding: 15px;
 }
 .foot-one{
-    width: 50%;
-    text-align: center;
+    /* width: 50%; */
 }
 .foot.two{
-    width: 50%;
+    /* width: 50%; */
 }
 .slot{
     color: #fff;
