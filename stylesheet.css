@@ -285,11 +285,11 @@
     text-align: justify;
 }
 .gif3{
-    max-width: 10rem;
+    max-width: 22rem;
     /* transform: translate(60%, 10%); */
 }
 .gif4{
-    max-width: 10rem;
+    max-width: 22rem;
     /* transform: translate(5%, 10%); */
 }
 .winter{
@@ -351,6 +351,9 @@
   }
   .sect1{
     height: 720px;
+  }
+  .sect2{
+    height: auto;
   }
   .break{
     display: none;
