@@ -352,4 +352,7 @@
   .sect1{
     height: 720px;
   }
+  .break{
+    display: none;
+  }
 }
