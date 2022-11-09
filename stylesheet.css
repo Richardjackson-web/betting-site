@@ -261,9 +261,6 @@
     max-width: 100%;
     /* display: flex; */
 }
-.one, .two, .three{
-    width: 33.33%;
-}
 .sect1-img{
     width: 40%;
 }
@@ -273,6 +270,13 @@
     display: block;
     margin-top: 5%;
     max-width: 100%;
+}
+.gif11{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 10%;
+  max-width: 100%;
 }
 .gif2{
     max-width: 23rem;
@@ -286,11 +290,9 @@
 }
 .gif3{
     max-width: 22rem;
-    /* transform: translate(60%, 10%); */
 }
 .gif4{
     max-width: 22rem;
-    /* transform: translate(5%, 10%); */
 }
 .winter{
     color:#fff;
@@ -305,6 +307,14 @@
     color: yellow;
 
 }
+.slot{
+  padding-top: 3rem;
+  font-size:2.2rem;
+  line-height: 2.3rem;
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
 .sport-head{
     color:yellow;
     margin-top: 40px;
@@ -313,6 +323,14 @@
     font-style: italic;
     font-family: 'Playfair Display', serif;
     text-align: center;
+}
+.play{
+  color: #fff;
+  font-size: 1.6rem;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  line-height: 2rem;
+  padding-bottom: 10px;
 }
 .sport-text{
     color: #fff;
@@ -357,5 +375,8 @@
   }
   .break{
     display: none;
+  }
+  .gif11{
+    padding-top: 50%;
   }
 }
