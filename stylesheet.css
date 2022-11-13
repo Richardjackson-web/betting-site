@@ -55,7 +55,7 @@
     display: flex;
   }
   .site-navbar ul li a {
-    color: #fff;
+    /* color: #fff; */
     padding: 20px;
     display: block;
     text-decoration: none;
@@ -68,7 +68,7 @@
   
   
   /* nav-toggler css start */
-  .nav-toggler {
+  /* .nav-toggler {
     border: 3px solid #fff;
     padding: 5px;
     background-color: transparent;
@@ -101,12 +101,12 @@
   }
   .nav-toggler.toggler-open span:after {
     transform: translateY(-3px) rotate(-45deg);
-  }
+  } */
   /* nav-toggler css start */
   
   
   /* intro-area css start */
-  .intro-area {
+  /* .intro-area {
     height: calc(100vh - 61px);
     display: flex;
     align-items: center;
@@ -121,20 +121,20 @@
   }
   .intro-area p {
     font-size: 18px;
-  }
+  } */
   /* intro-area css end */
   
   
   /* mobile breakpoint start */
-  @media screen and (max-width: 767px) {
+  /* @media screen and (max-width: 767px) {
     .container {
       max-width: 720px;
     }
     .btn1, .btn2{
         margin-top: 30px;
-    }
+    } */
     /* navbar css for mobile start */
-    .nav-toggler{
+    /* .nav-toggler{
       display: block;
     }
     .site-navbar {
@@ -172,9 +172,9 @@
     .intro-area h2 {
       font-size: 36px;
       margin-bottom: 15px;
-    }  
+    }   */
     /* navbar css for mobile end */
-  }
+  /* } */
   /* mobile breakpoint end */
 
 
@@ -221,6 +221,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
+    border: 3px solid rgb(109, 109, 109);
 }
 .sect2{
     max-width: 100%;
@@ -612,11 +613,39 @@
   }
 }
 @media screen and (max-width:400px) {
+  
+  .hero{
+    height:300px ;
+  }.btn1{
+    background-color: rgb(209, 188, 2);
+    color: #000;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    padding: 6px 1px;
+    border: 2px solid rgb(209, 188, 2);
+ }
+ .btn2{
+    background-color: #06598c;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    padding: 6px 25px;
+    border: 2px solid #06598c;
+    margin-left: 10px;
+ }
+ .logo{
+    color: rgb(230, 223, 223);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.sect3{
+  height: 200px;
+}
   .gif{
     margin-top: 7rem;
   }
   .site-logo{
-    font-size: 1.5rem !important;
+    font-size: 0.8rem !important;
   }
   .sect1{
     display: flex;
@@ -625,6 +654,9 @@
   }
   .sect1-img{
     width: 40%;
+  }
+  .gif1{
+    margin-top: 2px !important;
   }
   .gif2{
     width: 8rem;
@@ -641,7 +673,7 @@
   }
   .sport-text{
     font-size: 0.4rem;
-    line-height: 0.4rem;
+    line-height: 0.1rem;
   }
   .sport-head{
     margin-top: 2%;
