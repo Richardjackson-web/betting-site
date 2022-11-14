@@ -623,6 +623,7 @@
     font-family: 'Playfair Display', serif;
     padding: 6px 1px;
     border: 2px solid rgb(209, 188, 2);
+    font-size: 0.7rem;
  }
  .btn2{
     background-color: #06598c;
@@ -631,6 +632,7 @@
     padding: 6px 25px;
     border: 2px solid #06598c;
     margin-left: 10px;
+    font-size: 0.7rem;
  }
  .logo{
     color: rgb(230, 223, 223);
@@ -639,10 +641,10 @@
     font-size: 20px;
 }
 .sect3{
-  height: 200px;
+  height: 150px !important;
 }
   .gif{
-    margin-top: 7rem;
+    margin-top: 4rem;
   }
   .site-logo{
     font-size: 0.8rem !important;
@@ -656,7 +658,7 @@
     width: 40%;
   }
   .gif1{
-    margin-top: 2px !important;
+    margin-top: 2px;
   }
   .gif2{
     width: 8rem;
@@ -701,6 +703,7 @@
   }
   .slot{
     font-size: 1rem;
+    padding-bottom: 1.3rem;
   }
   .both{
     max-width: 100%;
@@ -724,7 +727,7 @@
     height: 350px;
   }
   .gif11{
-    padding-top: 8rem;
+    padding-top: 3rem;
   }
   .sect3{
     height: auto;
@@ -734,5 +737,50 @@
   }
   .two{
     width: 40%;
+  }
+}
+@media screen and (max-width:300px) {
+  .site-logo{
+    font-size: 0.5rem !important;
+  }
+  .btn1{
+    font-size: 0.5rem;
+  }
+  .btn2{
+    font-size: 0.5rem;
+  }
+  .container{
+    height: 60px;
+  }
+  .hero{
+    height: 200px;
+  }
+  .gif2{
+    margin-left: 10px;
+    width: 6rem;
+    height: 17rem;
+  }
+  .sect1{
+    height: auto;
+    padding-bottom: 40px;
+  }
+  .winter{
+    font-size: 0.6rem;
+  }
+  .sport-head{
+    line-height: 0rem;
+    margin-top: 25px;
+  }
+  .sport-text{
+    line-height: 0rem;
+  }
+  .sub-gif1, .sub-gif2{
+    width: 3rem;
+    height: 1rem;
+  }
+  .play{
+    line-height: 0.6rem;
+    margin-left: 50px;
+    font-size: 0.2rem;
   }
 }
