@@ -799,25 +799,31 @@
     width: 6rem;
   }
   .sport-head{
-    margin-top: 1%;
+    margin-top: 0px;
   }
   .sect2{
-    height: 200px;
+    height: 350px;
+    padding-bottom: 20px;
   }
   .play{
     font-size: 0.25rem;
     line-height: 0.4rem;
-    margin-left: 30px;
+    margin-left: 50px;
   }
   .sub-gif1, .sub-gif2{
     width: 3rem;
     height: 1.5rem;
+    margin-top: 50px;
   }
   .sport-text{
-    line-height: 0.7rem;
+    line-height: 0rem;
+    font-size: 0.35rem;
   }
   .sect1-text{
     margin-left: 15px;
+  }
+  .sub-one{
+    width: 90%;
   }
 }
 @media screen and (max-width:300px) {
