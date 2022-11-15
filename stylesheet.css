@@ -331,7 +331,7 @@
 }
 .play{
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-family: 'Montserrat', sans-serif;
   font-style: italic;
   line-height: 2rem;
@@ -339,7 +339,7 @@
 }
 .sport-text{
     color: #fff;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 2.3rem;
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
@@ -438,6 +438,15 @@
     }
     .sect3{
       height: auto;
+    }
+}
+@media screen and (max-width:950px) {
+    .play{
+      font-size: 1.2rem;
+      line-height: 2rem;
+    }
+    .sport-text{
+      font-size: 1.1rem;
     }
 }
 @media screen and (max-width:880px) {
@@ -782,6 +791,33 @@
   }
   .container{
     height: 60px;
+  }
+  .winter{
+    font-size: 0.5rem;
+  }
+  .gif2{
+    width: 6rem;
+  }
+  .sport-head{
+    margin-top: 1%;
+  }
+  .sect2{
+    height: 200px;
+  }
+  .play{
+    font-size: 0.25rem;
+    line-height: 0.4rem;
+    margin-left: 30px;
+  }
+  .sub-gif1, .sub-gif2{
+    width: 3rem;
+    height: 1.5rem;
+  }
+  .sport-text{
+    line-height: 0.7rem;
+  }
+  .sect1-text{
+    margin-left: 15px;
   }
 }
 @media screen and (max-width:300px) {
