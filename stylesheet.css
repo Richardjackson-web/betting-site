@@ -673,8 +673,11 @@
   .sub-one{
     width: 90%;
   }
+  .gif3, .gif4{
+    width: 5rem;
+  }
   .play{
-    font-size: 0.4rem;
+    font-size: 0.6rem;
   }
 }
 @media screen and (max-width:400px) {
