@@ -673,6 +673,9 @@
   .sub-one{
     width: 90%;
   }
+  .play{
+    font-size: 0.4rem;
+  }
 }
 @media screen and (max-width:400px) {
   
