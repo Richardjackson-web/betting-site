@@ -18,7 +18,7 @@
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 10px 15px;
   }
   .header-area {
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.5)),
@@ -42,7 +42,7 @@
   a.site-logo {
     font-size: 26px;
     font-weight: 800;
-    padding: 25px 0px;
+    padding: 0px 0px;
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;
@@ -56,7 +56,7 @@
   }
   .site-navbar ul li a {
     /* color: #fff; */
-    padding: 20px;
+    padding: 0px;
     display: block;
     text-decoration: none;
     text-transform: uppercase;
@@ -176,7 +176,6 @@
     /* navbar css for mobile end */
   /* } */
   /* mobile breakpoint end */
-
 
 
   .btn1{
@@ -698,6 +697,17 @@
   }
   .play{
     font-size: 0.6rem;
+  }
+  .gif{
+    position: relative;
+  }
+  .giff{
+    margin-top: 5px;
+    max-width: 100%;
+  }
+  .gif1{
+    position: absolute;
+    top: 10px !important;
   }
   .slot{
     font-size: 1rem;
