@@ -332,6 +332,7 @@
 .play{
   color: #fff;
   font-size: 1.4rem;
+  font-weight: bold;
   font-family: 'Montserrat', sans-serif;
   font-style: italic;
   line-height: 2rem;
@@ -341,6 +342,7 @@
     color: #fff;
     font-size: 1.4rem;
     line-height: 2.3rem;
+    font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
     text-align: left;
