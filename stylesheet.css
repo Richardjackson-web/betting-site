@@ -214,7 +214,7 @@
 }
 .sect1{
     max-width: 100%;
-    height: 700px;
+    height: auto;
     background-image: url(./Assets/Images/img3.jpg);
     background-color: rgb(14, 14, 39);
     background-blend-mode: overlay;
@@ -262,7 +262,7 @@
     max-width: 100%;
 }
 .sect1-img{
-    width: 50%;
+    width: 40%;
 }
 .sect1-text{
   margin-top: 2rem;
@@ -284,7 +284,7 @@
 }
 .gif2{
     max-width: 18rem;
-    margin-left: 35%;
+    margin-left: 22%;
     margin-top: 10%;
     border: 3px solid gray;
 }
@@ -340,20 +340,23 @@
 }
 .sport-text{
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     line-height: 2.3rem;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
     text-align: left;
 }
+.sub-one{
+  width: 90%;
+}
 .sub-gif1{
     width: 10rem;
-    margin-left: 2rem;
+    margin-left: 5rem;
 }
 .sub-gif2{
     width: 10rem;
-    margin-left: 4.7rem;
+    margin-left: 5rem;
 }
 @media screen and (max-width:1200px) {
     .gif{
@@ -442,13 +445,30 @@
       height: auto;
     }
 }
+@media screen and (max-width:1100px) {
+  .sport-text{
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+  }
+  .play{
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+  }
+}
 @media screen and (max-width:950px) {
     .play{
       font-size: 1.2rem;
       line-height: 2rem;
     }
     .sport-text{
-      font-size: 1.1rem;
+      font-size: 1rem;
+    }
+    .sub-one{
+      width:90%;
+    }
+    .play{
+      font-size: 1rem;
+      line-height: 1.7rem;
     }
 }
 @media screen and (max-width:880px) {
