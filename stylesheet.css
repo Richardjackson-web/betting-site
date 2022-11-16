@@ -660,8 +660,16 @@
 }
 @media screen and (max-width:455px) {
   .sport-text{
-    font-size: 0.4rem;
+    font-size: 0.5rem;
     line-height: 0.7rem;
+  }
+  .sub-gif1, .sub-gif2{
+    width: 2.5rem;
+    height: 2rem;
+    margin-left: 1.5rem;
+  }
+  .sub-one{
+    width: 90%;
   }
 }
 @media screen and (max-width:400px) {
