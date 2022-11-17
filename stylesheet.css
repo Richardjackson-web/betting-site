@@ -1,3 +1,8 @@
+@font-face{
+  font-family: betFont;
+  src: url(./Assets/fonts/Nexa\ Bold.otf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +14,7 @@
     box-sizing: border-box;
   }
   body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: betFont;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -46,7 +51,7 @@
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: betFont;
   }
   .site-navbar ul {
     margin: 0;
@@ -181,14 +186,14 @@
   .btn1{
     background-color: rgb(209, 188, 2);
     color: #000;
-    font-family: 'Montserrat', sans-serif;
+    font-family: betFont;
     padding: 14px 35px;
     border: 2px solid rgb(209, 188, 2);
  }
  .btn2{
     background-color: #06598c;
     color: #fff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: betFont;
     padding: 14px 35px;
     border: 2px solid #06598c;
     margin-left: 10px;
@@ -302,7 +307,7 @@
     margin-top: 40px;
     line-height: 2.3rem;
     font-size:1.7rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: betFont;
     font-style: italic;
     text-align: center;
     text-align: left;
@@ -316,7 +321,7 @@
   font-size:2.2rem;
   line-height: 2.3rem;
   font-style: italic;
-  font-family: 'Montserrat', sans-serif;
+  font-family: betFont;
   text-align: center;
 }
 .sport-head{
@@ -325,14 +330,14 @@
     font-size:2.2rem;
     line-height: 2.3rem;
     font-style: italic;
-    font-family: 'Montserrat', sans-serif;
+    font-family: betFont;
     text-align: left;
 }
 .play{
   color: #fff;
   font-size: 1.4rem;
   font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
+  font-family: betFont;
   font-style: italic;
   line-height: 2rem;
   padding-bottom: 10px;
@@ -342,7 +347,7 @@
     font-size: 1.1rem;
     line-height: 2.3rem;
     font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
+    font-family: betFont;
     font-style: italic;
     text-align: left;
 }
@@ -484,7 +489,7 @@
     margin-top: 7rem;
   }
   .site-logo{
-    font-size: 1.5rem !important;
+    font-size: 1.3rem !important;
   }
   .sect1{
     display: flex;
@@ -578,8 +583,15 @@
   }
 }
 @media screen and (max-width:480px) {
+  .hero{
+    height:200px ;
+  }
   .gif{
-    margin-top: 7rem;
+    position: relative;
+  }
+  .gif1{
+    position: absolute;
+    top: -80px !important;
   }
   .site-logo{
     font-size: 0.8rem !important;
@@ -591,9 +603,6 @@
   .btn2{
     font-size: 0.8rem;
     padding: 5px 10px;
-  }
-  .hero{
-    height: 300px;
   }
   .sect1{
     display: flex;
@@ -698,16 +707,19 @@
   .play{
     font-size: 0.6rem;
   }
-  .gif{
-    position: relative;
-  }
   .giff{
     margin-top: 5px;
     max-width: 100%;
   }
+  .hero{
+    height:200px ;
+  }
+  .gif{
+    position: relative;
+  }
   .gif1{
     position: absolute;
-    top: 10px !important;
+    top: -80px !important;
   }
   .slot{
     font-size: 1rem;
@@ -716,8 +728,16 @@
 @media screen and (max-width:400px) {
   
   .hero{
-    height:300px ;
-  }.btn1{
+    height:200px ;
+  }
+  .gif{
+    position: relative;
+  }
+  .gif1{
+    position: absolute;
+    top: -30px !important;
+  }
+  .btn1{
     background-color: rgb(209, 188, 2);
     color: #000;
     font-weight: bold;
@@ -768,14 +788,14 @@
     margin-top: 70px;
   }
   .winter{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     line-height: 1.3rem;
   }
   .sect1-text{
     width: 60%;
   }
   .sport-text{
-    font-size: 0.4rem;
+    font-size: 0.37rem;
     line-height: 0.1rem;
   }
   .sport-head{
