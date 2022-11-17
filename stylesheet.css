@@ -44,14 +44,9 @@
     justify-content: space-between;
     align-items: center;
   }
-  a.site-logo {
-    font-size: 26px;
-    font-weight: 800;
-    padding: 0px 0px;
-    text-transform: uppercase;
-    color: #fff;
-    text-decoration: none;
-    font-family: betFont;
+  .main-logo{
+    max-width: 50%;
+    height: 150px;
   }
   .site-navbar ul {
     margin: 0;
@@ -369,6 +364,10 @@
     .site-logo{
       font-size: 1.5rem !important;
     }
+    .main-logo{
+      max-width: 50%;
+      height: 150px;
+    }
     .sect1{
       display: flex;
       max-width: 100%;
@@ -454,6 +453,10 @@
     font-size: 0.9rem;
     line-height: 0.9rem;
   }
+  .main-logo{
+    max-width: 50%;
+    height: 150px;
+  }
   .play{
     font-size: 1.2rem;
     line-height: 1.9rem;
@@ -474,6 +477,10 @@
       font-size: 1rem;
       line-height: 1.7rem;
     }
+    .main-logo{
+      max-width: 50%;
+      height: 150px;
+    }
 }
 @media screen and (max-width:880px) {
   .sport-text{
@@ -487,6 +494,10 @@
 @media screen and (max-width:800px) {
   .gif{
     margin-top: 7rem;
+  }
+  .main-logo{
+    max-width: 50%;
+    height: 150px;
   }
   .site-logo{
     font-size: 1.3rem !important;
@@ -574,17 +585,38 @@
   .site-logo{
     font-size: 1.2rem !important;
   }
+  .main-logo{
+    max-width: 45%;
+    height: 80px;
+  }
   .btn1, .btn2{
+    width: 130px;
     font-size: 0.7rem;
-    padding: 10px 10px;
+    padding: 10px 20px;
   }
   .sport-text{
     font-size: 0.5rem;
   }
 }
+@media screen and (max-width:600px) {
+  .main-logo{
+    max-width: 50%;
+    height: 80px;
+  }
+}
+@media screen and (max-width:550px) {
+  .main-logo{
+    max-width: 50%;
+    height: 60px;
+  }
+}
 @media screen and (max-width:480px) {
   .hero{
     height:200px ;
+  }
+  .main-logo{
+    max-width: 45%;
+    height: 60px;
   }
   .gif{
     position: relative;
@@ -597,11 +629,11 @@
     font-size: 0.8rem !important;
   }
   .btn1{
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     padding: 5px 10px;
   }
   .btn2{
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     padding: 5px 10px;
   }
   .sect1{
