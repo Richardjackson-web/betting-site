@@ -177,6 +177,9 @@
   /* } */
   /* mobile breakpoint end */
 
+  .newbtn1, .newbtn2{
+    display: none;
+  }
 
   .btn1{
     background-color: rgb(209, 188, 2);
@@ -496,7 +499,7 @@
     margin-top: 7rem;
   }
   .main-logo{
-    max-width: 50%;
+    max-width: 70%;
     height: 150px;
   }
   .site-logo{
@@ -580,6 +583,10 @@
   .sect3{
     height: auto;
   }
+  .btn1, .btn2{
+    width: 170px;
+    font-size: 0.6rem;
+  }
 }
 @media screen and (max-width:610px) {
   .site-logo{
@@ -606,8 +613,26 @@
 }
 @media screen and (max-width:550px) {
   .main-logo{
-    max-width: 50%;
+    max-width: 70%;
     height: 60px;
+  }
+    .newbtn1{
+    font-size: 0.7rem;
+    display: block;
+  }
+  .newbtn2{
+    font-size: 0.7rem;
+    display: block;
+  }
+  .btn1{
+    font-size: 0.4rem;
+    padding: 1px 0px;
+    display: none;
+  }
+  .btn2{
+    font-size: 0.4rem;
+    padding: 1px 0px;
+    display: none;
   }
 }
 @media screen and (max-width:480px) {
@@ -615,7 +640,7 @@
     height:200px ;
   }
   .main-logo{
-    max-width: 45%;
+    max-width: 65%;
     height: 60px;
   }
   .gif{
@@ -626,15 +651,25 @@
     top: -80px !important;
   }
   .site-logo{
-    font-size: 0.8rem !important;
+    font-size: 0.6rem !important;
+  }
+  .newbtn1{
+    font-size: 0.6rem;
+    display: block;
+  }
+  .newbtn2{
+    font-size: 0.6rem;
+    display: block;
   }
   .btn1{
-    font-size: 0.6rem;
-    padding: 5px 10px;
+    font-size: 0.4rem;
+    padding: 1px 0px;
+    display: none;
   }
   .btn2{
-    font-size: 0.6rem;
-    padding: 5px 10px;
+    font-size: 0.4rem;
+    padding: 1px 0px;
+    display: none;
   }
   .sect1{
     display: flex;
@@ -758,7 +793,24 @@
   }
 }
 @media screen and (max-width:400px) {
-  
+  .newbtn1{
+    font-size: 0.4rem;
+    display: block;
+  }
+  .newbtn2{
+    font-size: 0.4rem;
+    display: block;
+  }
+  .btn1{
+    font-size: 0.4rem;
+    padding: 1px 0px;
+    display: none;
+  }
+  .btn2{
+    font-size: 0.4rem;
+    padding: 1px 0px;
+    display: none;
+  }
   .hero{
     height:200px ;
   }
@@ -893,6 +945,34 @@
   }
 }
 @media screen and (max-width:370px) {
+ .newbtn1{
+    font-size: 0.35rem;
+    display: block;
+  }
+  .newbtn2{
+    font-size: 0.35rem;
+    display: block;
+  }
+  .btn1{
+    font-size: 0.4rem;
+    padding: 1px 0px;
+    display: none;
+  }
+  .btn2{
+    font-size: 0.4rem;
+    padding: 1px 0px;
+    display: none;
+  }
+  .btn1{
+    font-size: 0.4rem;
+    padding: 1px 0px;
+    display: none;
+  }
+  .btn2{
+    font-size: 0.4rem;
+    padding: 1px 0px;
+    display: none;
+  }
   .site-logo{
     font-size: 0.6rem !important;
   }
@@ -933,9 +1013,31 @@
     width: 90%;
   }
 }
-@media screen and (max-width:300px) {
+@media screen and (max-width:335px) {
   .site-logo{
     font-size: 0.5rem !important;
+  }
+  .main-logo{
+    max-width: 45%;
+    height: 60px;
+  }
+  .newbtn1{
+    font-size: 0.24rem;
+    display: block;
+  }
+  .newbtn2{
+    font-size: 0.24rem;
+    display: block;
+  }
+  .btn1{
+    font-size: 0.4rem;
+    padding: 1px 0px;
+    display: none;
+  }
+  .btn2{
+    font-size: 0.4rem;
+    padding: 1px 0px;
+    display: none;
   }
   .gif{
     padding-bottom: 50px !important;
