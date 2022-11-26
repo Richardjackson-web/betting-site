@@ -204,7 +204,7 @@
 }
 .hero{
     max-width: 100%;
-    height: 500px;
+    height: auto;
     background-image: url(./Assets/Images/img1.jpg);
     background-color: rgb(44, 44, 44);
     background-blend-mode: overlay;
@@ -214,17 +214,32 @@
 .sub-flex{
   display: flex;
 }
+.shadow{
+  font-family: betFont;
+  color: rgba(121, 118, 118, 0.4);
+  font-size: 35px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+}
+.span-shodow{
+  padding-top: 60px;
+  padding-left: 6rem;
+  font-family: betFont;
+  color: rgba(121, 118, 118, 0.3);
+  font-size: 25px;
+}
 .sect1{
     max-width: 100%;
     height: auto;
     background-image: url(./Assets/Images/img3.jpg);
-    background-color: rgb(14, 14, 39);
+    background-color: rgb(207, 207, 211);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
     border: 3px solid rgb(109, 109, 109);
-}
+  padding-bottom: 40px;
+  }
 .sect2{
     max-width: 100%;
     height: 650px;
@@ -301,7 +316,7 @@
     max-width: 22rem;
 }
 .winter{
-    color:#fff;
+    color:#000;
     margin-top: 40px;
     line-height: 2.3rem;
     font-size:1.7rem;
@@ -311,7 +326,7 @@
     text-align: left;
 }
 .winter-your{
-    color: yellow;
+    color: #000;
 }
 .slot{
   padding-top: 1rem;
@@ -323,7 +338,7 @@
   text-align: center;
 }
 .sport-head{
-    color:yellow;
+    color:#000;
     margin-top: 40px;
     font-size:2.2rem;
     line-height: 2.3rem;
@@ -341,7 +356,7 @@
   padding-bottom: 10px;
 }
 .sport-text{
-    color: #fff;
+    color: #000;
     font-size: 1.1rem;
     line-height: 2.3rem;
     font-weight: bold;
@@ -360,9 +375,41 @@
     width: 10rem;
     margin-left: 5rem;
 }
+.row{
+  display: flex;
+  text-align: center;
+  max-width: 100%;
+}
+.foot-one{
+  width: 50%;
+}
+.foot-two{
+  width: 50%;
+}
 @media screen and (max-width:1200px) {
     .gif{
       margin-top: 7rem;
+    }
+    .hero{
+      height: 480px;
+    }
+    .sha{
+      position: relative;
+    }
+    .span-shodow{
+      position: absolute;
+      top: -15px;
+      padding-left: 2.8rem;
+      font-size: 22px;
+    }
+    .shadow{
+      position: absolute;
+      top: 60px;
+      font-size: 24px;
+      padding-bottom: 5px;
+    }
+    .foot-one, .foot-two{
+      font-size: 13px;
     }
     .site-logo{
       font-size: 1.5rem !important;
@@ -456,6 +503,27 @@
     font-size: 0.9rem;
     line-height: 0.9rem;
   }
+  .hero{
+    height: 480px;
+  }
+  .sha{
+    position: relative;
+  }
+  .span-shodow{
+    position: absolute;
+    top: -15px;
+    padding-left: 2.8rem;
+    font-size: 22px;
+  }
+  .shadow{
+    position: absolute;
+    top: 60px;
+    font-size: 24px;
+    padding-bottom: 5px;
+  }
+  .foot-one, .foot-two{
+    font-size:12px;
+  }
   .main-logo{
     max-width: 50%;
     height: 150px;
@@ -469,6 +537,27 @@
     .play{
       font-size: 1.2rem;
       line-height: 2rem;
+    }
+    .hero{
+      height: 470px;
+    }
+    .sha{
+      position: relative;
+    }
+    .span-shodow{
+      position: absolute;
+      top: -15px;
+      padding-left: 2.8rem;
+      font-size: 22px;
+    }
+    .shadow{
+      position: absolute;
+      top: 60px;
+      font-size: 24px;
+      padding-bottom: 5px;
+    }
+    .foot-one, .foot-two{
+      font-size: 10px;
     }
     .sport-text{
       font-size: 1rem;
@@ -489,6 +578,27 @@
   .sport-text{
     font-size: 0.9rem;
   }
+  .hero{
+    height: 470px;
+  }
+  .sha{
+    position: relative;
+  }
+  .span-shodow{
+    position: absolute;
+    top: -7px;
+    padding-left: 1.5rem;
+    font-size: 18px;
+  }
+  .shadow{
+    position: absolute;
+    top: 60px;
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+  .foot-one, .foot-two{
+    font-size: 9px;
+  }
   .play{
     font-size: 1.1rem;
     line-height: 1.1rem;
@@ -497,6 +607,27 @@
 @media screen and (max-width:800px) {
   .gif{
     margin-top: 7rem;
+  }
+  .hero{
+    height: 470px;
+  }
+  .sha{
+    position: relative;
+  }
+  .span-shodow{
+    position: absolute;
+    top: -7px;
+    padding-left: 1.5rem;
+    font-size: 16px;
+  }
+  .shadow{
+    position: absolute;
+    top: 60px;
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+  .foot-one, .foot-two{
+    font-size: 9px;
   }
   .main-logo{
     max-width: 70%;
@@ -610,11 +741,53 @@
     max-width: 50%;
     height: 80px;
   }
+  .hero{
+    height: 380px;
+  }
+  .sha{
+    position: relative;
+  }
+  .span-shodow{
+    position: absolute;
+    top: -4px;
+    padding-left: 1.5rem;
+    font-size: 12px;
+  }
+  .shadow{
+    position: absolute;
+    top: 60px;
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+  .foot-one, .foot-two{
+    font-size: 7px;
+  }
 }
 @media screen and (max-width:550px) {
   .main-logo{
     max-width: 70%;
     height: 60px;
+  }
+  .hero{
+    height: 350px;
+  }
+  .sha{
+    position: relative;
+  }
+  .span-shodow{
+    position: absolute;
+    top: -4px;
+    padding-left: 1.5rem;
+    font-size: 10px;
+  }
+  .shadow{
+    position: absolute;
+    top: 60px;
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+  .foot-one, .foot-two{
+    font-size: 9px;
   }
     .newbtn1{
     font-size: 0.7rem;
@@ -640,7 +813,25 @@
 }
 @media screen and (max-width:480px) {
   .hero{
-    height:200px ;
+    height:250px ;
+  }
+  .sha{
+    position: relative;
+  }
+  .span-shodow{
+    position: absolute;
+    top: -35px;
+    padding-left: 1.5rem;
+    font-size: 8px;
+  }
+  .shadow{
+    position: absolute;
+    top: 25px;
+    font-size: 10px;
+    padding-bottom: 5px;
+  }
+  .foot-one, .foot-two{
+    font-size: 5.4px;
   }
   .main-logo{
     max-width: 65%;
@@ -763,6 +954,24 @@
     font-size: 0.5rem;
     line-height: 0.7rem;
   }
+  .sha{
+    position: relative;
+  }
+  .span-shodow{
+    position: absolute;
+    top: -35px;
+    padding-left: 1.5rem;
+    font-size: 8px;
+  }
+  .shadow{
+    position: absolute;
+    top: 25px;
+    font-size: 10px;
+    padding-bottom: 5px;
+  }
+  .foot-one, .foot-two{
+    font-size: 8px;
+  }
   .sub-gif1, .sub-gif2{
     width: 2.5rem;
     height: 2rem;
@@ -782,7 +991,7 @@
     max-width: 100%;
   }
   .hero{
-    height:200px ;
+    height:250px ;
   }
   .gif{
     position: relative;
@@ -800,6 +1009,24 @@
     font-size: 0.4rem;
     display: block;
   }
+  .sha{
+    position: relative;
+  }
+  .shadow{
+    position: absolute;
+    top: 75px;
+    font-size: 10px;
+    padding-bottom: 5px;
+  }
+  .span-shodow{
+    position: absolute;
+    top: 13px;
+    padding-left: 1.5rem;
+    font-size: 8px;
+  }
+  .foot-one, .foot-two{
+    font-size: 7px;
+  }
   .newbtn2{
     font-size: 0.4rem;
     display: block;
@@ -815,7 +1042,7 @@
     display: none;
   }
   .hero{
-    height:200px ;
+    height:250px ;
   }
   .gif{
     position: relative;
@@ -952,6 +1179,27 @@
     font-size: 0.35rem;
     display: block;
   }
+  .hero{
+    height: 200px;
+  }
+  .sha{
+    position: relative;
+  }
+  .shadow{
+    position: absolute;
+    top: 50px;
+    font-size: 10px;
+    padding-bottom: 5px;
+  }
+  .span-shodow{
+    position: absolute;
+    top: -10px;
+    padding-left: 1.5rem;
+    font-size: 8px;
+  }
+  .foot-one, .foot-two{
+    font-size: 4px;
+  }
   .newbtn2{
     font-size: 0.35rem;
     display: block;
@@ -1017,8 +1265,26 @@
   }
 }
 @media screen and (max-width:335px) {
+  .sha{
+    position: relative;
+  }
+  .shadow{
+    position: absolute;
+    top: 0px;
+    font-size: 10px;
+    padding-bottom: 5px;
+  }
+  .span-shodow{
+    position: absolute;
+    top: -60px;
+    padding-left: 1.5rem;
+    font-size: 8px;
+  }
   .site-logo{
     font-size: 0.5rem !important;
+  }
+  .foot-one, .foot-two{
+    font-size: 2px;
   }
   .main-logo{
     max-width: 45%;
