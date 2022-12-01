@@ -225,7 +225,7 @@
 .sect1{
     max-width: 100%;
     height: 60rem;
-    background-image: url(./Assets/Images/img3.png);
+    background-image: url(./Assets/Images/img33.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
@@ -752,6 +752,48 @@ max-width: 100%;
   }
 }
 @media screen and (max-width:600px) {
+  
+  .sect1{
+    height: 27rem;
+    padding-bottom: 40px;
+  }
+  .gif2{
+    margin-top: 6rem;
+    margin-left: 3rem !important;
+    max-width: 8rem;
+    height: 16rem !important;
+  }
+  .winter{
+    margin-left: 2rem;
+    margin-top: 6rem;
+    max-width: 17rem;
+  }
+  .sport-betting{
+    margin-top: 0rem;
+    margin-left: 2rem;
+    max-width: 11rem;
+  }
+  .sect2{
+    height: 20rem !important;
+  }
+  .sect2-gif{
+    max-width: 8rem;
+  }
+  .sect2-img{
+    max-width: 20rem;
+    height: 3rem;
+  }
+  .sect2-one{
+    margin-left: 8%;
+    margin-top: 2rem;
+  }
+  .sect1-gif{
+    margin-left: 6rem;
+    max-width: 2.8rem;
+  }
+  .pos{
+    top: 2.4rem;
+  }
   .main-logo{
     max-width: 50%;
     height: 80px;
