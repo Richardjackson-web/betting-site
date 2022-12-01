@@ -1329,12 +1329,12 @@ max-width: 100%;
   .winter{
     margin-left: 3rem;
     margin-top: 4rem;
-    max-width: 13rem;
+    max-width: 12rem;
   }
   .sport-betting{
     margin-top: 0rem;
     margin-left: 1.5rem;
-    max-width: 9rem;
+    max-width: 8rem;
   }
   .sect2{
     height: 16rem !important;
@@ -1377,7 +1377,7 @@ max-width: 100%;
     padding-bottom: 5px;
   }
   .foot-one, .foot-two{
-    font-size: 0.3rem;
+    font-size: 0.2rem;
   }
   .sub-gif1, .sub-gif2{
     width: 2.5rem;
@@ -1803,17 +1803,13 @@ max-width: 100%;
     font-size: 0.2rem;
   }
   .main-logo{
-    max-width: 45%;
+    max-width: 35%;
     height: 60px;
   }
   .newbtn1{
-    font-size: 0.24rem;
+    font-size: 0.4rem;
     display: block;
-  }
-  .newbtn2{
-    font-size: 0.24rem;
-    display: block;
-  }
+  } 
   .btn1{
     font-size: 0.4rem;
     padding: 1px 0px;
