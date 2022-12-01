@@ -20,6 +20,7 @@
     line-height: 20px;
   }
   .container {
+    height: 10rem;
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
@@ -37,7 +38,7 @@
   /* navbar regular css start */
   .navbar-area {
     background: rgba(0,0,0,.6);
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #eebb00;
   }
   .site-navbar {
     display: flex;
@@ -252,7 +253,7 @@
 .sect3{
     max-width: 100%;
     height: 400px;
-    background-image: url(./Assets/Images/img2.jpg);
+    background-image: url(./Assets/Images/img2.png);
     background-color: rgb(111, 111, 147);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
@@ -263,6 +264,7 @@
     background-color: rgb(2, 2, 23);
     color: #fff;
     padding: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 .both{
   display: flex;
@@ -557,6 +559,9 @@ max-width: 100%;
     .sect3{
       height: auto;
     }
+    .container{
+      height: 10rem;
+    }
 }
 @media screen and (max-width:1100px) {
   .sect1{
@@ -633,6 +638,9 @@ max-width: 100%;
   .play{
     font-size: 1.2rem;
     line-height: 1.9rem;
+  }
+  .container{
+    height: 10rem;
   }
 }
 @media screen and (max-width:950px) {
@@ -717,6 +725,19 @@ max-width: 100%;
       max-width: 50%;
       height: 150px;
     }
+    .btn1{
+      font-size: 0.8rem;
+      display: block;
+      background-color: #eebb00;   
+      font-weight: bolder;
+      border-radius: 4px;
+      padding: 15px 25px ;
+      font-family: betFont;
+      border: 2px solid #fff;
+    }
+    .container{
+      height: 10rem;
+    }
 }
 @media screen and (max-width:880px) {
   .sect1{
@@ -799,6 +820,9 @@ max-width: 100%;
     padding: 15px 25px ;
     font-family: betFont;
     border: 2px solid #fff;
+  }
+  .container{
+    height: 10rem;
   }
 }
 @media screen and (max-width:800px) {
@@ -946,9 +970,18 @@ max-width: 100%;
   .sect3{
     height: auto;
   }
-  .btn1, .btn2{
-    width: 170px;
-    font-size: 0.6rem;
+  .btn1{
+    font-size: 0.5rem;
+    display: block;
+    background-color: #eebb00;   
+    font-weight: bolder;
+    border-radius: 4px;
+    padding: 8px 10px ;
+    font-family: betFont;
+    border: 2px solid #fff;
+  }
+  .container{
+    height: 10rem;
   }
 }
 @media screen and (max-width:700px) {
@@ -1011,8 +1044,26 @@ max-width: 100%;
     font-family: betFont;
     border: 2px solid #fff;
   }
+  .main-logo{
+    max-width: 50%;
+  }
+  .container{
+    height: 10rem;
+  }
 }
-@media screen and (max-width:610px) {
+@media screen and (max-width:641px){
+  .btn1{
+    font-size: 0.5rem;
+    display: block;
+    background-color: #eebb00;   
+    font-weight: bolder;
+    border-radius: 4px;
+    padding: 8px 10px ;
+    font-family: betFont;
+    border: 2px solid #fff;
+  }
+}
+@media screen and (max-width:617px) {
   .site-logo{
     font-size: 1.2rem !important;
   }
@@ -1027,6 +1078,19 @@ max-width: 100%;
   }
   .sport-text{
     font-size: 0.5rem;
+  }
+  .btn1{
+    font-size: 0.5rem;
+    display: block;
+    background-color: #eebb00;   
+    font-weight: bolder;
+    border-radius: 4px;
+    padding: 8px 10px ;
+    font-family: betFont;
+    border: 2px solid #fff;
+  }
+  .container{
+    height: 6rem;
   }
 }
 @media screen and (max-width:600px) {
@@ -1112,6 +1176,9 @@ max-width: 100%;
     font-family: betFont;
     border: 2px solid #fff;
   }
+  .container{
+    height: 6rem;
+  }
 }
 @media screen and (max-width:550px) {
   .sect1{
@@ -1194,6 +1261,9 @@ max-width: 100%;
     padding: 8px 10px ;
     font-family: betFont;
     border: 2px solid #fff;
+  }
+  .container{
+    height: 4.7rem;
   }
 }
 @media screen and (max-width:480px) {
@@ -1354,6 +1424,9 @@ max-width: 100%;
   .sect3{
     height: auto;
   }
+  .container{
+    height: 4.7rem;
+  }
 }
 @media screen and (max-width:455px) {
   .sect1{
@@ -1455,6 +1528,9 @@ max-width: 100%;
   }
   .slot{
     font-size: 1rem;
+  }
+  .container{
+    height: 4.7rem;
   }
 }
 @media screen and (max-width:400px) {
@@ -1633,6 +1709,9 @@ max-width: 100%;
   .two{
     width: 40%;
   }
+  .container{
+    height: 4rem;
+  }
 }
 @media screen and (max-width:370px) {
   .sect1{
@@ -1717,7 +1796,7 @@ max-width: 100%;
     font-size: 0.6rem !important;
   }
   .container{
-    height: 60px;
+    height: 4rem;
   }
   .winter{
     font-size: 0.5rem;
@@ -1839,7 +1918,7 @@ max-width: 100%;
     padding-bottom: 50px !important;
   }
   .container{
-    height: 60px;
+    height: 4rem;
   }
   .hero{
     height: 200px;
