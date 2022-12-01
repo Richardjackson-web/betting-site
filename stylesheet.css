@@ -465,7 +465,8 @@ max-width: 100%;
       padding-bottom: 5px;
     }
     .foot-one, .foot-two{
-      font-size: 13px;
+      font-size: 10px;
+      line-height: 0.7rem;
     }
     .site-logo{
       font-size: 1.5rem !important;
@@ -622,7 +623,8 @@ max-width: 100%;
     padding-bottom: 5px;
   }
   .foot-one, .foot-two{
-    font-size:10px;
+    font-size:8px;
+    line-height: 0.5rem;
   }
   .main-logo{
     max-width: 50%;
@@ -698,7 +700,8 @@ max-width: 100%;
       padding-bottom: 5px;
     }
     .foot-one, .foot-two{
-      font-size: 10px;
+      font-size: 8px;
+      line-height: 0.5rem;
     }
     .sport-text{
       font-size: 1rem;
@@ -780,7 +783,8 @@ max-width: 100%;
     padding-bottom: 5px;
   }
   .foot-one, .foot-two{
-    font-size: 9px;
+    font-size: 7px;
+    line-height: 0.5rem;
   }
   .play{
     font-size: 1.1rem;
@@ -829,6 +833,10 @@ max-width: 100%;
   .pos{
     top: 4rem;
   }
+  .gif1, .gif11{
+    max-width: 70%;
+    margin-left: 80px;
+  }
   .gif{
     margin-top: 7rem;
   }
@@ -851,7 +859,8 @@ max-width: 100%;
     padding-bottom: 5px;
   }
   .foot-one, .foot-two{
-    font-size: 0.5rem;
+    font-size: 0.39rem;
+    line-height: 0.5rem;
   }
   .main-logo{
     max-width: 70%;
@@ -974,8 +983,13 @@ max-width: 100%;
   .pos{
     top: 4rem;
   }
+  .gif1, .gif11{
+    max-width: 70%;
+    margin-left: 80px;
+  }
   .foot-one, .foot-two{
-    font-size: 0.4rem;
+    font-size: 0.29rem;
+    line-height: 0.4rem;
   }
 }
 @media screen and (max-width:610px) {
@@ -1038,6 +1052,10 @@ max-width: 100%;
   .pos{
     top: 2.4rem;
   }
+  .gif1, .gif11{
+    max-width: 70%;
+    margin-left: 70px;
+  }
   .main-logo{
     max-width: 50%;
     height: 80px;
@@ -1061,7 +1079,8 @@ max-width: 100%;
     padding-bottom: 5px;
   }
   .foot-one, .foot-two{
-    font-size: 0.4rem;
+    font-size: 0.29rem;
+    line-height: 0.4rem;
   }
 }
 @media screen and (max-width:550px) {
@@ -1106,7 +1125,10 @@ max-width: 100%;
   .pos{
     top: 2.4rem;
   }
-  
+  .gif1, .gif11{
+    max-width: 70%;
+    margin-left: 70px;
+  }
   .main-logo{
     max-width: 70%;
     height: 60px;
@@ -1130,7 +1152,8 @@ max-width: 100%;
     padding-bottom: 5px;
   }
   .foot-one, .foot-two{
-    font-size: 0.3rem;
+    font-size: 0.26rem;
+    line-height: 0.4rem;
   }
     .newbtn1{
     font-size: 0.7rem;
@@ -1196,6 +1219,11 @@ max-width: 100%;
   .pos{
     top: 1.7rem;
   }
+  
+  .gif1, .gif11{
+    max-width: 70%;
+    margin-left: 70px;
+  }
   .hero{
     height:250px ;
   }
@@ -1215,7 +1243,8 @@ max-width: 100%;
     padding-bottom: 5px;
   }
   .foot-one, .foot-two{
-    font-size: 0.3rem;
+    font-size: 0.27rem;
+    line-height: 0.4rem;
   }
   .main-logo{
     max-width: 65%;
@@ -1357,6 +1386,11 @@ max-width: 100%;
   .pos{
     top: 2rem;
   }
+  
+  .gif1, .gif11{
+    max-width: 70%;
+    margin-left: 70px;
+  }
   .sport-text{
     font-size: 0.5rem;
     line-height: 0.7rem;
@@ -1378,6 +1412,7 @@ max-width: 100%;
   }
   .foot-one, .foot-two{
     font-size: 0.2rem;
+    line-height: 0.4rem;
   }
   .sub-gif1, .sub-gif2{
     width: 2.5rem;
@@ -1453,6 +1488,11 @@ max-width: 100%;
   .pos{
     top: 1.7rem;
   }
+  
+  .gif1, .gif11{
+    max-width: 60%;
+    margin-left: 70px;
+  }
   .newbtn1{
     font-size: 0.4rem;
     display: block;
@@ -1474,6 +1514,7 @@ max-width: 100%;
   }
   .foot-one, .foot-two{
     font-size:0.24rem;
+    line-height: 0.4rem;
   }
   .newbtn2{
     font-size: 0.4rem;
@@ -1650,6 +1691,11 @@ max-width: 100%;
   .pos{
     top: 1.7rem;
   }
+  
+  .gif1, .gif11{
+    max-width: 60%;
+    margin-left: 70px;
+  }
   .newbtn1{
     font-size: 0.35rem;
     display: block;
@@ -1674,6 +1720,7 @@ max-width: 100%;
   }
   .foot-one, .foot-two{
     font-size: 0.2rem;
+    line-height: 0.4rem;
   }
   .newbtn2{
     font-size: 0.35rem;
@@ -1800,7 +1847,8 @@ max-width: 100%;
     font-size: 0.5rem !important;
   }
   .foot-one, .foot-two{
-    font-size: 0.2rem;
+    font-size: 0.15rem;
+    line-height: 0.4rem;
   }
   .main-logo{
     max-width: 35%;
@@ -1810,6 +1858,10 @@ max-width: 100%;
     font-size: 0.4rem;
     display: block;
   } 
+  .gif1, .gif11{
+    max-width: 50%;
+    margin-left: 70px;
+  }
   .btn1{
     font-size: 0.4rem;
     padding: 1px 0px;
