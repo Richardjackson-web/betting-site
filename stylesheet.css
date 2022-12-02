@@ -303,10 +303,10 @@
   max-width: 100%;
 }
 .gif2{
-    max-width: 18rem;
+    max-width: 19rem;
     margin-left: 10rem;
     margin-top: 8rem;
-    /* border: 3px solid gray; */
+  height: auto;
 }
 .two{
     font-size: 1.3rem;
@@ -326,7 +326,7 @@
 }
 .pos{
   position: relative;
-   top: 6rem;
+   top: 8rem;
 }
 .super{
   max-width: 50%;
@@ -351,7 +351,7 @@
 }
 .sport-betting{
   margin-top: 2rem;
-  max-width: 80%;
+  max-width: 90%;
   margin-left: 10rem;
 }
 .sect1-gif{
@@ -412,7 +412,7 @@ max-width: 100%;
     margin-top: 3rem;
     margin-left: 12rem !important;
     max-width: 16rem;
-    height: 31rem !important;
+    height: 33rem !important;
   }
   .winter{
     margin-left: 8rem;
@@ -572,7 +572,7 @@ max-width: 100%;
     margin-top: 3rem;
     margin-left: 9rem !important;
     max-width: 11rem;
-    height: 27rem !important;
+    height: 30rem !important;
   }
   .winter{
     margin-left: 8rem;
@@ -651,7 +651,7 @@ max-width: 100%;
   .gif2{
     margin-top: 3rem;
     margin-left: 7rem !important;
-    max-width: 11rem;
+    max-width: 10rem;
     height: 27rem !important;
   }
   .winter{
@@ -747,7 +747,7 @@ max-width: 100%;
   .gif2{
     margin-top: 3rem;
     margin-left: 7rem !important;
-    max-width: 11rem;
+    max-width: 9rem;
     height: 24rem !important;
   }
   .winter{
@@ -833,7 +833,7 @@ max-width: 100%;
   .gif2{
     margin-top: 3rem;
     margin-left: 5rem !important;
-    max-width: 11rem;
+    max-width: 9rem;
     height: 24rem !important;
   }
   .winter{
@@ -992,7 +992,7 @@ max-width: 100%;
   .gif2{
     margin-top: 3rem;
     margin-left: 4rem !important;
-    max-width: 9rem;
+    max-width: 7rem;
     height: 24rem !important;
   }
   .winter{
@@ -1102,8 +1102,8 @@ max-width: 100%;
   .gif2{
     margin-top: 3rem;
     margin-left: 3rem !important;
-    max-width: 8rem;
-    height: 16rem !important;
+    max-width: 6rem;
+    height: 17rem !important;
   }
   .winter{
     margin-left: 4rem;
@@ -1188,7 +1188,7 @@ max-width: 100%;
   .gif2{
     margin-top: 3rem;
     margin-left: 3rem !important;
-    max-width: 8rem;
+    max-width: 6rem;
     height: 16rem !important;
   }
   .winter{
@@ -1216,7 +1216,7 @@ max-width: 100%;
     margin-top: 2rem;
   }
   .sect1-gif{
-    margin-left: 3rem;
+    margin-left: 4rem;
     max-width: 2.8rem;
   }
   .pos{
@@ -1274,8 +1274,8 @@ max-width: 100%;
   .gif2{
     margin-top: 3rem;
     margin-left: 3rem !important;
-    max-width: 8rem;
-    height: 14rem !important;
+    max-width: 6rem;
+    height: 17.5rem !important;
   }
   .winter{
     margin-left: 2.5rem;
@@ -1283,7 +1283,7 @@ max-width: 100%;
     max-width: 14rem;
   }
   .sport-betting{
-    margin-top: 0rem;
+    margin-top: 1rem;
     margin-left: 2rem;
     max-width: 10rem;
   }
@@ -1306,7 +1306,7 @@ max-width: 100%;
     max-width: 2.8rem;
   }
   .pos{
-    top: 1.7rem;
+    top: 3.9rem;
   }
   
   .gif1, .gif11{
@@ -1436,18 +1436,18 @@ max-width: 100%;
   .gif2{
     margin-top: 3rem;
     margin-left: 2rem !important;
-    max-width: 8rem;
+    max-width: 6rem;
     height: 16rem !important;
   }
   .winter{
     margin-left: 3rem;
     margin-top: 4rem;
-    max-width: 12rem;
+    max-width: 14rem;
   }
   .sport-betting{
     margin-top: 0rem;
     margin-left: 1.5rem;
-    max-width: 8rem;
+    max-width: 10rem;
   }
   .sect2{
     height: 16rem !important;
@@ -1468,7 +1468,7 @@ max-width: 100%;
     max-width: 2rem;
   }
   .pos{
-    top: 2rem;
+    top: 2.7rem;
   }
   
   .gif1, .gif11{
@@ -1542,7 +1542,7 @@ max-width: 100%;
     margin-top: 3rem;
     margin-left: 2rem !important;
     max-width: 5rem;
-    height: 14rem !important;
+    height: auto !important;
   }
   .winter{
     margin-left: 2rem;
@@ -1550,9 +1550,9 @@ max-width: 100%;
     max-width: 13rem;
   }
   .sport-betting{
-    margin-top: 0rem;
+    margin-top: 1.5rem;
     margin-left: 2rem;
-    max-width: 8rem;
+    max-width: 9rem;
   }
   .sect2{
     height: 15rem !important;
@@ -1569,7 +1569,7 @@ max-width: 100%;
     margin-top: 2rem;
   }
   .sect1-gif{
-    margin-left: 4rem;
+    margin-left: 3rem;
     max-width: 2rem;
   }
   .pos{
@@ -1721,8 +1721,8 @@ max-width: 100%;
   .gif2{
     margin-top: 3rem;
     margin-left: 2rem !important;
-    max-width: 7rem;
-    height: 14rem !important;
+    max-width: 4rem;
+    height: auto !important;
   }
   .winter{
     margin-left: 2rem;
@@ -1730,9 +1730,9 @@ max-width: 100%;
     max-width: 11rem;
   }
   .sport-betting{
-    margin-top: 0rem;
+    margin-top: 0.7rem;
     margin-left: 2rem;
-    max-width: 7rem;
+    max-width: 8rem;
   }
   .sect2{
     height: 15rem !important;
@@ -1753,7 +1753,7 @@ max-width: 100%;
     max-width: 1.5rem;
   }
   .pos{
-    top: 1.7rem;
+    top: 2.5rem;
   }
   
   .gif1, .gif11{
@@ -1840,18 +1840,18 @@ max-width: 100%;
   .gif2{
     margin-top: 2rem;
     margin-left: 2rem !important;
-    max-width: 6rem;
+    max-width: 4rem;
     height: auto;
   }
   .winter{
     margin-left: 1.5rem;
     margin-top: 3rem;
-    max-width: 10rem;
+    max-width: 11rem;
   }
   .sport-betting{
-    margin-top: 0rem;
-    margin-left: 2rem;
-    max-width: 6rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    max-width: 7rem;
   }
   .sect2{
     height: 15rem;
@@ -1872,7 +1872,7 @@ max-width: 100%;
     max-width: 1.7rem;
   }
   .pos{
-    top: 1.7rem;
+    top: 2.6rem;
   }
   .sha{
     position: relative;
